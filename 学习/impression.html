@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>河南印象</title>
+    <style>
+        .bd{
+            background-color: rgb(255, 255, 255);
+            width: 650px;
+            margin: 25px auto;
+            font-family: 隶书;
+        }
+        body{
+            font-size: larger;
+            background-color: #c4473d;
+        }
+        legend{
+            font-size: 40px;
+        }
+     select{
+        font-family: 隶书;
+        font-size: large;
+     }
+     textarea{
+        font-family: 隶书;
+        font-size: large;
+     }
+    </style>
+</head>
+<body>
+    <div class="bd">
+    <form action="">
+     <fieldset>
+        <legend align="center">河南印象</legend>
+         景区服务态度<br>
+         <input type="radio" name="ismilitary" id="good">
+        <label for="good">好</label>
+        <input type="radio" name="ismilitary" id="一般">
+        <label for="一般">一般</label>
+        <input type="radio" name="ismilitary" id="差">
+        <label for="差">差</label><br><br>
+        是否存在以下现象<br>
+       <input type="checkbox">景区商贩坐地起价<br>
+       <input type="checkbox">景区垃圾<br>
+       <input type="checkbox">景区拥堵<br>
+       <input type="checkbox">景区乱刻<br>
+       <input type="checkbox">黑导游<br>
+       <input type="checkbox">不合理低价团<br>
+         <br>
+         让您感到不负此行的景点<br>
+         <select name="jd"><br>
+            <option value="空"></option>
+            <option value="老君山">老君山</option>
+            <option value="龙门石窟">龙门石窟</option>
+            <option value="少林寺">少林寺</option>
+            <option value="清明上河园">清明上河园</option>
+            <option value="太行大峡谷">太行大峡谷</option>
+            <option value="无">无</option>
+         </select>
+         <br> <br>
+         意外之喜<br>
+         <textarea name="yj" id="yi" cols="30" rows="3"></textarea><br><br>
+         此行您打几分<br>
+         <input type="radio" name="grade">1
+         <input type="radio" name="grade">2
+         <input type="radio" name="grade">3
+         <input type="radio" name="grade">4
+         <input type="radio" name="grade">5
+         <input type="radio" name="grade">6
+         <input type="radio" name="grade">7
+         <input type="radio" name="grade">8
+         <input type="radio" name="grade">9
+         <br> <br>您的宝贵意见<br>
+         <textarea name="yj" id="yi" cols="40" rows="6"></textarea><br><br>
+         <input type="submit" value="提交">
+         <input type="reset" value="清除">
+     </fieldset>
+    </form>
+  </div>
+</body>
+</html>
